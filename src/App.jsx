@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar.jsx';
+import Footer from './components/Footer/Footer.jsx'
 import Home from './components/Home/Home.jsx';
 import Services from './components/Services/Services.jsx';
 import About from './components/About/About.jsx';
@@ -34,6 +35,7 @@ const App = () => {
                 <Route path='/products/:productId' element={<ItemDetail />} />
                 <Route path='/category/:categoryId' element={<ProductsCategory />} />
                 </Routes>
+                <Footer />
             </BrowserRouter>
 
         </>
