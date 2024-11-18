@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../../public/coffelogo.jpg";
+import Logo from "/coffelogo.jpg";
 
 const Menus = [
     {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
-import FooterBg from '../../../public/cafefooter4.webp';
+import FooterBg from '/cafefooter4.webp';
 
 const FooterLinks = [
     {

@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeImg from "../../../public/coffee2.png"
+import HomeImg from "/coffee2.png"
 import Services from "../Services/Services.jsx";
 const Home = () => {
     return (
