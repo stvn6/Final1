@@ -8,6 +8,7 @@ const ServicesData = [
         id: 1,
         img: img2,
         name: "Cafe Molido",
+        link: "/category/molido",
         description: "Disfruta el sabor y aroma del café molido, listo para preparar en cada taza.",
         aosDelay: "100"
     },
@@ -15,6 +16,7 @@ const ServicesData = [
         id: 2,
         img: img1,
         name: "Cafe Grano",
+        link: "/category/grano",
         description: "Descubre el auténtico aroma y frescura del café en grano. Perfecto para moler",
         aosDelay: "100"
     },
@@ -22,6 +24,7 @@ const ServicesData = [
         id: 3,
         img: img3,
         name: "Cafe Liofilizado",
+        link: "/category/liofilizado",
         description: "Sabor instantáneo y auténtico en cada taza de café liofilizado",
         aosDelay: "100"
     },
@@ -52,7 +55,7 @@ const Services = () => {
                                         src={service.img}
                                         alt=""
                                         className="max-w-[200px] block mx-auto transform -translate-y-14
-                  group-hover:scale-105 group-hover:rotate-6 duration-300"
+                                        group-hover:scale-105 group-hover:rotate-6 duration-300"
                                     />
                                 </div>
                                 <div className="p-4 text-center">
